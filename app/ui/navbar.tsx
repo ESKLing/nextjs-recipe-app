@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NavLinks from "./navlinks";
 
 const NavBar = () => {
   return (
@@ -22,24 +23,7 @@ const NavBar = () => {
       </div> */}
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
-          <Link
-            href="/about"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
-          >
-            About
-          </Link>
-          <Link
-            href="/recipes"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
-          >
-            Recipes
-          </Link>
-          <Link
-            href="recipe-wheel"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white"
-          >
-            Recipe Wheel
-          </Link>
+          <NavLinks />
         </div>
       </div>
     </nav>
