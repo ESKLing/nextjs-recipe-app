@@ -6,7 +6,7 @@ const Page = async () => {
     <div>
       <h1>Recipes</h1>
       <div className="bg-white px-6">
-        {recipes.map((recipe, i) => {
+        {recipes.map((recipe) => {
           return (
             <div
               key={recipe.id}
