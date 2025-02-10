@@ -1,7 +1,7 @@
 const Page = () => {
   return (
     <div>
-      <h1>Recipes Wheel</h1>
+      <h1></h1>
     </div>
   );
 };
