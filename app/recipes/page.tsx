@@ -15,7 +15,7 @@ const Page = async () => {
               <div className="relative">
                 <a href="#">
                   <Image
-                    src="/dinner.png"
+                    src="/dinner.jpg"
                     width={1000}
                     height={760}
                     className="hidden md:block"
@@ -27,7 +27,7 @@ const Page = async () => {
               <div className="px-6 py-4 mb-auto">
                 <a
                   href="#"
-                  className="font-medium text-lg hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                  className="font-medium text-lg hover:text-gray-600 transition duration-500 ease-in-out inline-block mb-2"
                 >
                   {recipe.title}
                 </a>
