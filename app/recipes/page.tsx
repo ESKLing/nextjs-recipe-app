@@ -9,7 +9,7 @@ const Page = async () => {
       <div className="flex mb-5 justify-end">
         <Link
           href="/recipes/create"
-          className="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
         >
           Add Recipe
           <svg
@@ -51,7 +51,7 @@ const Page = async () => {
               <div className="px-6 py-4 mb-auto">
                 <a
                   href="#"
-                  className="font-medium text-lg hover:text-gray-600 transition duration-500 ease-in-out inline-block mb-2"
+                  className="font-medium text-lg text-purple-800 hover:text-purple-900 transition duration-500 ease-in-out inline-block mb-2"
                 >
                   {recipe.title}
                 </a>
