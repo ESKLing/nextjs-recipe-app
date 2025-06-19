@@ -39,11 +39,11 @@ const Page = async () => {
               <div className="relative">
                 <a href="#">
                   <Image
-                    src="/dinner.jpg"
+                    src="/dishes.png"
                     width={1000}
                     height={760}
                     className="hidden md:block"
-                    alt="Dinner"
+                    alt="Food dishes"
                   />
                   <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                 </a>
